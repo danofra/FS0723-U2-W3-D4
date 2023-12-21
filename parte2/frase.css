@@ -13,7 +13,7 @@ i {
 }
 .parole i {
   display: inline;
-  animation: appare 5s infinite;
+  animation: appare 10s infinite;
 }
 .parole {
   display: inline-flex;
@@ -29,11 +29,17 @@ i {
   0% {
     transform: translatey(0);
   }
+  25% {
+    transform: translatey(-35px);
+  }
   50% {
+    transform: translatey(-73px);
+  }
+  75% {
     transform: translatey(-35px);
   }
   100% {
-    transform: translatey(-73px);
+    transform: translatey(0px);
   }
 }
 
