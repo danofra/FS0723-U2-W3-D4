@@ -19,9 +19,8 @@ i {
 .parole {
   display: inline-flex;
   flex-direction: column;
-  height: 36px;
+  height: 30px;
   overflow: clip;
-  color: #6a889c;
 }
 
 @keyframes appare {
