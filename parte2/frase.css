@@ -18,9 +18,10 @@ i {
 .parole {
   display: inline-flex;
   flex-direction: column;
+  padding: 5px;
   border: 10px solid blue;
   box-shadow: 10px 10px 10px -3px rgb(0, 0, 0);
-  height: 33px;
+  height: 30px;
   overflow: clip;
 }
 
@@ -29,10 +30,10 @@ i {
     transform: translatey(0);
   }
   50% {
-    transform: translatey(-33px);
+    transform: translatey(-35px);
   }
   100% {
-    transform: translatey(-70px);
+    transform: translatey(-73px);
   }
 }
 
